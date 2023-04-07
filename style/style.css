@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  margin: 0;
+}
+
+.bg-ungu {
+  background-color: #c075ea;
+}
+
+.bg-pink {
+  background-color: #F7E4FF;
+}
+
+.text-ungu {
+  color: #c075ea;
+}
+
+.text-pink {
+  color: #F7E4FF;
+}
+
+.username {
+  font-size: 13px;
+}
+
+
+/* icon sizing */
+
+.like-icon img,
+.comment-icon img {
+  width: 20px;
+}
+
+.profile-image {
+  height: 200px;
+  margin-bottom: 150px;
+}
+
+.profile-image img{
+  top: 100%;
+  height: 250px;
+  width: 250px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile-icon {
+  width: 60px;
+}
+
+.menu-profile:hover{
+  color: #c075ea;
+  background-color: #F7E4FF;
+}
+.primary-bg{
+  background-color: #F7E4FF;
+}
+.primary-color{
+  color: #c075ea;
+}
+
+.question-button{
+  background-color: #c075ea;
+}
